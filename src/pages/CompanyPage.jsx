@@ -7,7 +7,7 @@ import { IoMdAdd } from "react-icons/io";
 import Loading from "../components/Loader";
 import { deleteCompany, fetchCompanies } from "../redux/slices/companySlice";
 import AddCompany from "../components/AddCompany";
-import CompanyTable from "../components/companyTable";
+import CompanyTable from "../components/CompanyTable.jsx";
 
 const CompanyPage = () => {
   const dispatch = useDispatch();
