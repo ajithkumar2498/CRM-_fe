@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginPage from "./pages/login/LoginPage.jsx";
 import ProtectedRoute from "./utils/protectedRoute.jsx";
-import Dashboard from "./pages/dashboard.jsx";
 import { Provider } from "react-redux";
 import store from "./redux/store.js";
 import { ToastContainer } from "react-toastify";
@@ -13,6 +12,7 @@ import ContactsPage from "./pages/ContactsPage.jsx";
 import CompanyPage from "./pages/CompanyPage.jsx";
 import DealsPage from "./pages/DealsPage.jsx";
 import { Layout } from "./App.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 const queryClient = new QueryClient();
 
